@@ -1,0 +1,35 @@
+﻿
+======== Corrections, Ajout etc.. ===============================================================
+
+[CLIENT]
+- Correction du bug de la génération procedural sur iPad.
+- Correction de la fluidité du mouvement en multijoueur.
+
+- Refonte complete du system multijoueur du cotée Serveur & Client.
+- Refonte du menu principale.
+- Refonte du menu multijoueur (2 joueur).
+
+- Ajout du gain de point en multijoueur,quand le joueur a gagner la partie il gagne + 25 flocon.
+- Ajout du mode partie aléatoire (2 player).
+- Ajout de la boutique fonctionnelle. Lier a une base de donnée etc...
+- Ajout de la fin de la map.
+- Ajout du compte a rebour en multijoueur (2 player). 
+
+[SERVEUR]
+Reofonte complet du serveur, maintenant il passe a la version 0.6b stable.
+Le serveur communique directement au joueur.
+Le serveur envoie individuellement la position du joueur a un autre joueur.
+Le(s) joueur(s) peuvent avoir le(s) même noms dans une même partit !
+
+=================================================================================================
+
+- Corriger, quand on a un skin dans la boutique, il faut qu'on le voit en multiplayer et en solo
+
+- Changer la texture de l'arbre avec une ombre ronde.	--> Pas fait pour raison : 'player Check System Round'
+
+- System de gain de vie avec 5 point
+- On gagne pas de point en multi						--> FAIT
+- Rajouter le 4 players									--> GROS GROS
+- QUand on se rentre dedans on meurt a partir de 10sec	
+- Rajouter les pouvoirs (Invicibilité)					--> FAIT
+	- Flac qu'on depose									--> FAIT
